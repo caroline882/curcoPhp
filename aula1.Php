@@ -14,4 +14,13 @@ date - data atual
 */
 echo date("d/m/Y");//13/04/2021
 
-
+function obterDataAtual($dataOntem = "") { //$dataOntem - "12/04/2021"
+    if ($dataOntem == ""){
+        throw Exception ("voce nao informou a data, a data esta em branco");
+    if ()
+    }
+    return date("d/m/Y");
+}
+function exibirDataAtual() {
+    obterDataAtual("12/04/2021")
+}
