@@ -5,6 +5,7 @@ echo "Atualização dev";
 
 echo "Atualização master";
 
+
 echo "Olá, estou no branch dev";
 /*
 O comando abaixo imprime a data atual
@@ -24,3 +25,14 @@ function obterDataAtual($dataOntem = "") { //$dataOntem - "12/04/2021"
 function exibirDataAtual() {
     obterDataAtual("12/04/2021")
 }
+
+echo "Olá, estou no branch dev!";
+
+phpinfo();
+
+echo "Nosso teste de conflito!";
+echo "Nosso teste de conflito!";
+echo "Nosso teste de conflito!";
+
+
+
